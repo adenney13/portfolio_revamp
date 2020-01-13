@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+}
+
+.name_main {
+	text-align: center;
+	color: white;
+}
+
+.sub_main {
+	text-align: center;
+	color: white;
+}
+
+.face_div {
+	text-align: center;
+}
+
+.face_main {
+	max-height: 10em;
+}
+
+.link_main {
+	color: white;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	color: white;
+}
