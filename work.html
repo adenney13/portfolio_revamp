@@ -5,16 +5,60 @@
 		<link rel="stylesheet" href="./style.css">
 		<link href="https://fonts.googleapis.com/css?family=Baskervville|IM+Fell+Great+Primer+SC|Josefin+Sans|Quicksand&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<h1 class="name_main">Aaron Denney</h1>
-		<h3 class="sub_main">Software Engineer/Web Developer</h3>
-		<div class="face_div"><img src="./assets/IMG_2133.jpg" alt="my face" class="face_main"></div>
-		<br>
-		<nav>
-			<a href="./about.html">About Me</a>
-			<a href="./work.html">My Work</a>
-			<a href="./contact.html">Contact Me</a>
-		</nav>
-		<h2 class="link_main">Shit I've done!</h2>
+	<body class="work_page">
+		<div class="about_me_head">
+			<a href="./index.html"> <img src="./assets/IMG_2133.jpg" alt="my face" class="face_pages"> </a>
+			<div>
+				<a href="./index.html" class="name_link"><h1 class="name_pages">Aaron Denney</h1></a>
+				<h3 class="sub_pages">Software Engineer/Web Developer</h3>
+			<nav class="nav_page">
+				<a href="./about.html">About Me</a>
+				<a href="./work.html">My Work</a>
+				<a href="./contact.html">Contact Me</a>
+			</nav>
+			</div>
+			<div class="contact_head">
+				<p>214-729-0142</p>
+				<p><a href="https://www.linkedin.com/in/aaron-denney/">LinkedIn</a></p>
+				<p><a href="mailto:aarondenney13@gmail.com">Email</a></p>
+			</div>
+			<!-- <a href="./index.html"> <img src="./assets/IMG_2133.jpg" alt="my face" class="face_pages"> </a> -->
+		</div>
+			<br>
+			<br>
+		<div class="projects">
+			<h3 class="sub_pages"><u>Projects</u></h3>
+			<br>
+			<p class="project_title">Just Another Day</p>
+			<img src ="./assets/JustAnotherDay.png" alt="just another day" class="project_photo">
+			<br>
+			<p class="project_desc">My first project! Collision detection prevents the player from 	touching the bad guys, but rewards the player for reaching home. Using the arrow keys, make 	it from one end of the map to the other without touching the sad faced bullies!</p>
+			<br>
+			<a href="https://pages.git.generalassemb.ly/adenney13/Just-Another-Day/code/landing.html">	Play Just Another Day!</a>
+			<br>
+			<p class="project_desc">Technologies Used: HTML, CSS, JavaScript</p>
+			<br>
+			<hr>
+			<br>
+			<p class="project_title">Cheat Meal</p>
+			<img src ="./assets/CheatMeal.png" alt="cheat meal" class="project_photo">
+			<br>
+			<p class="project_desc">For my second piece, I created an app that allows a user to make meal decisions based off of calories, protein, fat, and carbs. Unlike other apps, mine is designed around the main three fast food restaurants: McDonald's, Burger King, or Wendy's.</p>
+			<br>
+			<a href="http://amazing-mark.surge.sh/">Visit the Cheat Meal app!</a>
+			<br>
+			<p class="project_desc">Technologies Used: React, External API</p>
+			<br>
+			<hr>
+			<br>
+			<p class="project_title">Tornados FC Website</p>
+			<img src ="./assets/TornadosFC.png" alt="tornados fc" class="project_photo">
+			<br>
+			<p class="project_desc">For my final project, I built a full-stack web page for my dad's soccer club, Tornados FC. Parents and players can come to the web page to view team game and practice schedules as well as the roster. The admin function can be used to create and delete information as desired by the admin. (Working on authorization for admin to be password protected)</p>
+			<br>
+			<a href="https://tornados-fc.herokuapp.com/">Visit Tornados FC!</a>
+			<br>
+			<p class="project_desc">Technologies Used: React on Rails</p>
+		</div>
 	</body>
 </html>

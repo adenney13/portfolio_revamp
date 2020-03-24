@@ -6,22 +6,51 @@ body {
 */	font-family: 'Josefin Sans', sans-serif;
 }
 
+.contact_head {
+	color: white;
+	text-align: right;
+	font-size: 1em;
+}
+
 .name_main {
 	text-align: center;
 	color: white;
 	animation-name: fade;
-	animation-duration: .75s;
+	animation-duration: 3s;
+}
+
+.name_pages {
+	text-align: center;
+	color: white;
 }
 
 .sub_main {
 	text-align: center;
 	color: white;
 	animation-name: fade;
-	animation-duration: .75s;
+	animation-duration: 3s;
+}
+
+.sub_pages {
+	text-align: center;
+	color: white;
+
 }
 
 .face_div {
 	text-align: center;
+}
+
+.face_div_pages {
+	text-align: right;
+	background-color: white;
+}
+
+.about_me_head {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
 }
 
 .face_main {
@@ -39,32 +68,184 @@ body {
     overflow: hidden;
     -webkit-animation: reveal 2s ease;
     -webkit-animation-fill-mode: backwards;
+}
 
+.face_pages {
+	/*position: relative;*/
+/*    float: right;*/
+    border: .25em solid white;
+    border-radius: 50%;
+    width: 12vw;
+  	height: auto;
+   /* overflow: hidden;*/
+}
+
+.about_me_total {
+	animation-name: slide_up_about;
+	animation-duration: 2s;
 }
 
 .link_main {
+	font-size: 1em;
 	color: white;
 	text-align: center;
 	animation-name: fade;
-	animation-duration: .5s;
+	animation-duration: 3s;
+
+}
+
+h1 {
+	font-size: 7vh;
+	font-size: 7vw;
+}
+
+h3 {
+	font-size: 3vh;
+	font-size: 3vw;
+}
+
+h2 {
+	padding-left: 3em;
+	padding-right: 3em;
 }
 
 nav {
 	text-align: center;
 	color: white;
 	animation-name: fade;
-	animation-duration: .5s;
+	animation-duration: 3s;
+	font-size: 2vh;
+	font-size: 2vw;
 }
 
-a:link, a:visited {
+
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+
+.name_link {
+	text-decoration: none;
+}
+
+.tools {
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	animation-name: fade;
+	animation-duration: 3s;
+}
+
+ul {
+	padding: 0;
+	animation-name: fade;
+	animation-duration: 3s;
+	font-size: 2vh;
+	font-size: 2vw;
+}
+
+/*.tools {
+	animation-name: slide_up;
+	animation-duration: 2s;
+}*/
+
+.sub_pages_tools {
+	animation-name: fade;
+	animation-duration: 3s;
+	text-align: center;
+	color: white;
+	
+}
+
+.left_tools {
+
+}
+
+.right_tools {
+
+}
+
+.projects {
+	text-align: center;
+	animation-name: fade_in;
+	animation-duration: 3s;
+
+}
+
+.project_title {
+	color: white;
+	font-weight: bold;
+	font-size: 3vw;
+	animation-name: slide_up;
+	animation-duration: 2s;
+}
+
+.project_photo {
+	width: 45vw;
+	height: auto;
+}
+
+.project_desc {
+	color: white;
+	width: 50vw;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.contact_total {
+	animation-name: slide_up_about;
+	animation-duration: 2s;
+}
+
+.contact_main {
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	animation-name: fade;
+	animation-duration: 3s;
+}
+
+.contact_info {
+	text-align: center;
 	color: white;
 	animation-name: fade;
-	animation-duration: .5s;
+	animation-duration: 3s;
+}
+
+
+
+hr {
+	width: 20vw;
+}
+
+@keyframes slide_up {
+	from { margin-top: 100%;}
+	to { margin-top: 3%; }
+
+}
+
+@keyframes slide_up_about {
+	from { margin-top: 100%;}
+	to { margin-top: 0%; }
+
 }
 
 @keyframes fade {
 	from {color: black;}
 	to {color: white;}
+}
+
+@keyframes fade_in {
+	0% { opacity: 0;}
+	100% { opacity: 1;}
 }
 
 @keyframes fade_face {
@@ -74,9 +255,9 @@ a:link, a:visited {
 
 @-webkit-keyframes reveal {
     0%   {width: 0em;}
-    100% { width: 10em;}
+    100% { width: 8.9em;}
 }
 @keyframes reveal {
     0%   {width: 0em;}
-    100% { width: 10em;}
+    100% { width: 8.9em;}
 }
